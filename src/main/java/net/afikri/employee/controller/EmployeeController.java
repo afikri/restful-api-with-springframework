@@ -33,7 +33,7 @@ public class EmployeeController {
     	employeeService.addEmployee(employee);
     }
 
-    @RequestMapping(value="/updateCountry", method=RequestMethod.PUT)
+    @RequestMapping(value="/updateEmployee", method=RequestMethod.PUT)
     public void updateEmployee(@RequestBody Employee employee) {
     	employeeService.updateEmployee(employee);
     }
