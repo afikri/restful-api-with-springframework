@@ -6,4 +6,5 @@ POST http://localhost:8080/employee/addEmployee
 
 Steps to reproduce the code
 1. Modify the pom.xml file
+2. Update Maven project 
 
